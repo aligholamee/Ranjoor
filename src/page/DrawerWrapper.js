@@ -10,13 +10,13 @@ const DrawerWrapper = new DrawerNavigator({
     Home: {
         screen: TabWrapper,
     },
-},{
-    contentOptions: {
-    }
-});
+}, {
+        contentOptions: {
+        }
+    });
 
 /* Navigation Options are implemented here */
 DrawerWrapper.navigationOptions = {
-    header: null, 
+    header: null,
 }
 export default DrawerWrapper

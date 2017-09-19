@@ -42,9 +42,11 @@ class RanjoorSearch extends React.Component {
             <View style={styles.SearchContainer}>
                 <ExploreHeader />
                 <SearchBar
-                    inputStyle={{fontFamily:'IRANSans', fontSize:11, backgroundColor:'black'}}
-                    containerStyle={{backgroundColor:'#fafafa', borderRadius:25, width:'90%',
-                    marginTop:10, alignSelf:'center'}}
+                    inputStyle={{ fontFamily: 'IRANSans', fontSize: 11, backgroundColor: 'black' }}
+                    containerStyle={{
+                        backgroundColor: '#fafafa', borderRadius: 25, width: '90%',
+                        marginTop: 10, alignSelf: 'center'
+                    }}
                     lightTheme
                     round
                     placeholder='جستجو در گنجینه...' />

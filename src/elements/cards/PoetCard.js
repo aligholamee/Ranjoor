@@ -15,9 +15,9 @@ import * as Animatable from 'react-native-animatable';
 export default class PoetCard extends Component {
   render() {
     /* Mapped data will be processed right here */
-      return (
-        <View style={{ flexDirection: 'row' }}>
-        </View>
-      )
+    return (
+      <View style={{ flexDirection: 'row' }}>
+      </View>
+    )
   }
 }

@@ -62,11 +62,11 @@ export default class ExploreCard extends Component {
         /* Check if the progress is completed */
         if (this.state.progress == 1) {
             return (
-                <Animatable.View animation="fadeIn" style={{ flexDirection: 'row', marginBottom:2 }}>
+                <Animatable.View animation="fadeIn" style={{ flexDirection: 'row', marginBottom: 2 }}>
                     <View style={{ flex: 1 }}></View>
                     <Card
                         containerStyle={{
-                            marginBottom:3,
+                            marginBottom: 3,
                             height: 180, backgroundColor: '#fafafa', shadowOpacity: 0.7,
                             shadowOffset: { height: 5 }, shadowColor: 'black', borderWidth: 0, borderRadius: 5, flexDirection: 'row'
                         }}
@@ -92,12 +92,12 @@ export default class ExploreCard extends Component {
                             <Row style={{ flexDirection: 'row', alignSelf: 'flex-end', flex: 1 }}>
                                 <View style={{ flex: 1, margin: 10 }}>
                                     <View style={{ alignSelf: 'flex-end', flex: 1 }}>
-                                        <Text style={{ fontSize: 14,alignSelf: 'flex-end', fontFamily: 'IRANSans_Bold', color: 'black' }}>
+                                        <Text style={{ fontSize: 14, alignSelf: 'flex-end', fontFamily: 'IRANSans_Bold', color: 'black' }}>
                                             {this.state.rawData.m1}
                                         </Text>
                                     </View>
                                     <View style={{ alignSelf: 'flex-start', flex: 1 }}>
-                                        <Text style={{ fontSize: 14,alignSelf: 'flex-start', fontFamily: 'IRANSans_Bold', color: 'black', marginTop: 10 }}>
+                                        <Text style={{ fontSize: 14, alignSelf: 'flex-start', fontFamily: 'IRANSans_Bold', color: 'black', marginTop: 10 }}>
                                             {this.state.rawData.m2}
                                         </Text>
                                     </View>
@@ -137,7 +137,7 @@ export default class ExploreCard extends Component {
             return (
                 <View style={{ flexDirection: 'column' }}>
                     <View style={{ flex: 1 }}></View>
-                    <View style={{ marginTop:90, justifyContent: 'center', alignContent: 'center' }}>
+                    <View style={{ marginTop: 90, justifyContent: 'center', alignContent: 'center' }}>
                         <Progress.Circle
                             color='#705697'
                             style={styles.progress}
